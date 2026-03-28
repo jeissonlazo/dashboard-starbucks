@@ -1,14 +1,2 @@
 #!/bin/bash
 streamlit run app.py --server.port 8866 --server.address 0.0.0.0
-```
-
-> ⚠️ Este archivo **debe tener permisos de ejecución**. En tu terminal local corre:
-> ```bash
-> git update-index --chmod=+x .binder/start
-> ```
-
----
-
-**Paso 3 — Sube todo a GitHub** y ve a [mybinder.org](https://mybinder.org), pega tu repositorio y en el campo **"Path to a notebook file"** escribe:
-```
-/proxy/8866/
