@@ -1,0 +1,13 @@
+name: starbucks-dashboard
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - streamlit
+    - pandas
+    - plotly
+    - scikit-learn
+    - jupyter-server-proxy
